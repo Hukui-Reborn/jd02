@@ -1,0 +1,16 @@
+<h2>商品详情</h2>
+<div class="pull-right">
+  <%= link_to("Edit",edit_admin_product_path,class:"btn btn-primary") %>
+</div>
+<div class="group">
+  <p><%= @product.title %></p>
+</div>
+<div class="group">
+  <p><%= @product.description %></p>
+</div>
+<div class="group">
+  <p><%= @product.quantity %></p>
+</div>
+<div class="group">
+  <p><%= @product.price %></p>
+</div>
